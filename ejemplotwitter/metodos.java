@@ -9,7 +9,7 @@ import twitter4j.Twitter;
 import twitter4j.TwitterException;
 import twitter4j.TwitterFactory;
 
-public class classpathTwitter {
+public class metodos {
 
     public void tuit() throws TwitterException {
         Twitter twitter = TwitterFactory.getSingleton();
