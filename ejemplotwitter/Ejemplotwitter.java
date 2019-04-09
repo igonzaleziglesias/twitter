@@ -20,15 +20,7 @@ public class Ejemplotwitter {
     public static void main(String[] args) {
         int confirmar, menu = 0;
         metodos obx = new metodos();
-
-        try {
-            Autorizacion au = new Autorizacion();
-        } catch (IOException ex) {
-            Logger.getLogger(Ejemplotwitter.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (TwitterException ex) {
-            Logger.getLogger(Ejemplotwitter.class.getName()).log(Level.SEVERE, null, ex);
-        }
-
+        
         do {
             menu = Integer.parseInt(JOptionPane.showInputDialog(null, "******MENU******\n\n Seleccione que desea realizar:\n1-ver linea de tiempo de sus twitter\n2-Escribir un twitter\n3-Buscar por una palabra o #\n4-Salir"));
             switch (menu) {
